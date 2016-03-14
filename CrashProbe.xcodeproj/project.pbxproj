@@ -10,6 +10,7 @@
 		051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
+		1923D6A8BEAEBEC6CDF730AB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15576C27A24D89B210A61892 /* CoreText.framework */; };
 		1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
 		1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773297189B183B00EB3F5A /* SystemConfiguration.framework */; };
@@ -23,6 +24,11 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
+		2D99CC813B3BAFA75BEF21A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEA2898BAF44764DCB57B21 /* SystemConfiguration.framework */; };
+		399D94449B0AF759F1B13D7C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9477FB2A190A0B1582DF5AC0 /* AssetsLibrary.framework */; };
+		45D67FB762AE6F1361CF4734 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AD761166D9C332C81FC87D /* CoreTelephony.framework */; };
+		710702BD606E8B4CBEF26F7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BFF854B51178E9EB7AFFEC /* QuartzCore.framework */; };
+		95E8F21F1B5D0845928E6F69 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EDBDD128BFD6302F0B7DC1 /* BuddyBuildSDK.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -199,6 +205,8 @@
 		05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm64.s; path = CrashProbe/CRLFramelessDWARF_arm64.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_i386.s; path = CrashProbe/CRLFramelessDWARF_i386.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_x86_64.s; path = ../CrashProbe/CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
+		15576C27A24D89B210A61892 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		16AD761166D9C332C81FC87D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashAsyncSafeThread.h; path = CrashProbe/CRLCrashAsyncSafeThread.h; sourceTree = SOURCE_ROOT; };
 		1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashAsyncSafeThread.m; path = CrashProbe/CRLCrashAsyncSafeThread.m; sourceTree = SOURCE_ROOT; };
 		1E1789DF189B15CF00CE4C53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -220,6 +228,10 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		9477FB2A190A0B1582DF5AC0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B5EDBDD128BFD6302F0B7DC1 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		CBEA2898BAF44764DCB57B21 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D7BFF854B51178E9EB7AFFEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -333,6 +345,12 @@
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
+				95E8F21F1B5D0845928E6F69 /* BuddyBuildSDK.framework in Frameworks */,
+				399D94449B0AF759F1B13D7C /* AssetsLibrary.framework in Frameworks */,
+				1923D6A8BEAEBEC6CDF730AB /* CoreText.framework in Frameworks */,
+				45D67FB762AE6F1361CF4734 /* CoreTelephony.framework in Frameworks */,
+				2D99CC813B3BAFA75BEF21A7 /* SystemConfiguration.framework in Frameworks */,
+				710702BD606E8B4CBEF26F7D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +547,12 @@
 				FAF9BCB816D2924500C8BB7D /* Cocoa.framework */,
 				FAF9BCD616D2924500C8BB7D /* SenTestingKit.framework */,
 				1E1789DF189B15CF00CE4C53 /* XCTest.framework */,
+				B5EDBDD128BFD6302F0B7DC1 /* BuddyBuildSDK.framework */,
+				9477FB2A190A0B1582DF5AC0 /* AssetsLibrary.framework */,
+				15576C27A24D89B210A61892 /* CoreText.framework */,
+				16AD761166D9C332C81FC87D /* CoreTelephony.framework */,
+				CBEA2898BAF44764DCB57B21 /* SystemConfiguration.framework */,
+				D7BFF854B51178E9EB7AFFEC /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1103,6 +1127,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
@@ -1128,6 +1156,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashProbe iOS/CrashProbe iOS-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
